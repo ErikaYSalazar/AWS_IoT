@@ -12,7 +12,7 @@ sudo apt-get upgrade
 - Install Sense Hat.
 `sudo apt-get install sense-hat`
 - Attach the sensor when the raspberry is turned off. Check [Getting Started Page](https://www.okdo.com/getstarted/) for more details.
-- Test that the sensor is properly connected with ![sense_hat.py](/scripts/python/accesories/sense_hat.py).
+- Test that the sensor is properly connected with ![sense_hat.py](/scripts/sense_hat.py).
 
 _Important_: When raspberry pi turns on, the sensor lights up in a rainbow color pattern. It should turn off after sometime. If the display doesn’t turn off, try the following steps from the command line.
 ```
@@ -30,7 +30,7 @@ Reboot `sudo reboot`
 - Enable camera from raspberry pi configuration.
 - Reboot Raspberry
 - Attach the camera when the raspberry is turned off. Check [Getting Started Page](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2) for more details.
-- Test that the camera is properly connected with ![camera_picture.py](/scripts/python/accessories/camera_picture.py) or ![camera_video.py](/scripts/python/accessories/camera_video.py).
+- Test that the camera is properly connected with ![camera_picture.py](/scripts/camera_picture.py) or ![camera_video.py](/scripts/camera_video.py).
 
 ## AWS Prerequisites
 ### An AWS Account
